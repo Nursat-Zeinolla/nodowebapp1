@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySchedule</title>
+
+    <style>
+        body{
+            background-color:white;
+        }
+        .footer{
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: aquamarine;
+            color:rgb(5, 7, 7);
+            text-align: center;
+            padding: 10px;
+        }
+        .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 130px;
+            text-align: center;
+            background-color: aquamarine;
+            font-size: xx-large;
+            color: black;
+        }
+        .text{
+            margin-top: 150px;
+            padding: 10px;
+            margin-left: 15%;
+            margin-right: 15%;
+            font-size: x-large;
+
+            background-color: khaki;
+        }
+        #buttons{
+            margin-top: 7%;
+        }
+        #sign_up{
+            margin-left: 36%;
+            background-color: greenyellow;
+            font-size: x-large;
+            color:rgb(5, 7, 7);
+            padding: 10px;
+        }
+        #sign_in{
+            margin-left: 10%;
+            background-color: greenyellow;
+            font-size: x-large;
+            color:rgb(5, 7, 7);
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<header class="header">
+    <div><h2>MySchedule</h2></div>
+</header>
+<body>
+
+    <div class="text">
+        <p> 
+                    Welcome to MySchedule homepage!<br>
+            The main purpose of this website is to help people organize their time-management. 
+            You will be able to make your daily schedule. Therefore, you will be not be afraid 
+            that you will forget to execute important tasks. However, you should sign in prior
+            to make a schedule or sign up, if you are a new user. <br><br>
+            The server side of this website was built with pure Node.js, Express, and MongoDB. <br>
+            Meanwhile, the frontend is just HTML and CSS.
+
+        </p>
+
+    </div>   
+    
+    <div id="buttons">
+        <a id="sign_up" href="/sign_up">Sign up</a>
+        <a id="sign_in" href="/sign_in">Sign in</a>
+    </div>
+    
+
+    
+</body>
+<footer class="footer">
+    <div>MySchedule Copyright 2021</div>
+</footer>
+</html>
